@@ -8,6 +8,7 @@ html,
 body {
     height: 100%;
     font-family: HelveticaNeue-Light;
+    background-color: #222;
 }
 
 .carousel,
@@ -20,6 +21,9 @@ body {
     height: 100%;
 }
 
+.fleck {
+    font-family: HelveticaNeue-Bold;
+}
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
@@ -33,6 +37,12 @@ body {
 }
 
 footer {
-    margin: 50px 0;
+    margin: 15px 0 5px 0;
     font-family: HelveticaNeue-Light;
+    color: #777;
+    background-color: #222;
+}
+
+.container {
+    background-color: #222;
 }
