@@ -7,7 +7,8 @@
 html,
 body {
     height: 100%;
-    font-family: HelveticaNeue-Light;
+    font-family: 'HelveticaNeue-Light', 'Source Sans Pro', sans-serif;
+    font-weight: 200;
     background-color: #222;
 }
 
@@ -21,8 +22,20 @@ body {
     height: 100%;
 }
 
+/*#fle {
+    margin-right: -15px;
+    padding-right: 1px;
+}
+
+#kk {
+    padding: 14px 14px 16px 14px;
+    padding-bottom: 0px;
+    padding-top: 14px;
+}*/
+
 .fleck {
-    font-family: HelveticaNeue-Bold;
+    font-family: 'HelveticaNeue-Bold', 'Source Sans Pro', sans-serif;
+    font-weight: 700;
 }
 /* Background images are set within the HTML using inline CSS, not here */
 
