@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: 'HelveticaNeue-Light', 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    background-color: #222;
+    background-color: white;
 }
 
 .carousel,
@@ -49,13 +49,22 @@ body {
     -o-background-size: cover;
 }
 
+#etsy {
+    padding-top: 70px;
+}
+
 footer {
     margin: 15px 0 5px 0;
     font-family: HelveticaNeue-Light;
     color: #777;
-    background-color: #222;
+    background-color: white;
+}
+.navbar-inverse {
+    background-color: white;
+    border-color: white;
 }
 
 .container {
-    background-color: #222;
+    background-color: white;
+    color: white;
 }
