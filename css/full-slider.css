@@ -19,7 +19,7 @@ body {
 .description {
     font-family: 'HelveticaNeue-Light', 'Source Sans Pro', sans-serif;
     font-weight: 100;
-    color: #9d9d9d;
+    color: #777;
 }
 
 .fleck {
@@ -49,7 +49,7 @@ body {
 footer {
     margin: 15px 0 5px 0;
     font-family: 'HelveticaNeue-Light', 'Source Sans Pro', sans-serif;
-    color: #9d9d9d;
+    color: #777;
     background-color: white;
 }
 
