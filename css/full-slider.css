@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 html,
 body {
     height: 100%;
@@ -22,17 +16,6 @@ body {
     height: 100%;
 }
 
-/*#fle {
-    margin-right: -15px;
-    padding-right: 1px;
-}
-
-#kk {
-    padding: 14px 14px 16px 14px;
-    padding-bottom: 0px;
-    padding-top: 14px;
-}*/
-
 .fleck {
     font-family: 'HelveticaNeue-Bold', 'Source Sans Pro', sans-serif;
     font-weight: 700;
@@ -50,7 +33,13 @@ body {
 }
 
 #etsy {
-    padding-top: 55px;
+    padding-top: 20px;
+    /*width: 100%;*/
+    /*position: relative;*/
+}
+
+.etsy-holder {
+    display: center;
 }
 
 footer {
@@ -66,5 +55,4 @@ footer {
 
 .container {
     background-color: white;
-    color: white;
 }
