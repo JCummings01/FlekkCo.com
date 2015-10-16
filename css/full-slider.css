@@ -1,8 +1,11 @@
 html,
 body {
     height: 100%;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+
     background-color: white;
 }
 
@@ -35,9 +38,11 @@ body {
     background-color: white;
 }
 
-.fleck {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
+#fleck {
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    letter-spacing: -1px;
 }
 /* Background images are set within the HTML using inline CSS, not here */
 
@@ -51,6 +56,26 @@ body {
     -o-background-size: cover;
 }
 
+#social-twitter {
+    font-size: .85em;
+    color: steelblue;
+}
+
+#social-fb {
+    font-size: .85em;
+    color: navy;
+}
+
+#social-pin {
+    font-size: .85em;
+    color: crimson;
+}
+
+#social-insta {
+    font-size: .85em;
+    color: peru;
+}
+
 #etsy {
     padding-top: 20px;
 }
@@ -60,8 +85,8 @@ body {
 }
 
 footer {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
     color: #777;
     background-color: white;
 }
