@@ -1,11 +1,10 @@
 html,
 body {
     height: 100%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
     font-size: 1.2em;
     letter-spacing: -2px;
-
     background-color: white;
 }
 
@@ -20,10 +19,10 @@ body {
 }
 
 .description {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
     color: #777;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     /*word-spacing: 0px;*/
 }
 
@@ -38,8 +37,8 @@ body {
 
 #fleck {
     font-size: 1.5em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
     letter-spacing: -4px;
 }
 /* Background images are set within the HTML using inline CSS, not here */
@@ -83,7 +82,7 @@ body {
 }
 
 footer {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
     color: #777;
     background-color: white;
