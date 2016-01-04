@@ -8,9 +8,16 @@ a:hover {
     color: inherit;
 }
 
+.etsy {
+    font-family: Lora;
+    letter-spacing: 0;
+    background-color: #F56400;
+    color: white;
+}
+
 #warranty {
     letter-spacing: -.5px;
-    word-spacing: 10px;
+    word-spacing: 2px;
     text-align: center;
     color: grey;
 }
