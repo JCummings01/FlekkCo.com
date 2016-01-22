@@ -22,6 +22,15 @@ a:hover {
     color: grey;
 }
 
+.titleName,
+.titleTagline {
+    float: left;
+}
+
+.container {
+    position: relative;
+}
+
 .header-image {
     display: block;
     width: 100%;
