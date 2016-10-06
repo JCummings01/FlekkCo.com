@@ -1,18 +1,13 @@
 body {
-    margin-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin-top: 0px;
+    background-color: #EAEAEA;
+    height: 100%;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-a,
-a:hover {
+a, a:hover {
     text-decoration: none;
     color: inherit;
-}
-
-.etsy {
-    font-family: Lora;
-    letter-spacing: 0;
-    background-color: #F56400;
-    color: white;
 }
 
 #warranty {
@@ -22,18 +17,14 @@ a:hover {
     color: grey;
 }
 
-.titleName,
-.titleTagline {
+.titleName, .titleTagline {
     float: left;
-}
-
-.container {
-    position: relative;
 }
 
 .header-image {
     display: block;
-    width: 100%;
+    /*width: 100%;*/
+    height: 100vh;
     text-align: center;
     background: url('../public/GOLD1.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -42,24 +33,19 @@ a:hover {
     -o-background-size: cover;
 }
 
-div.headline {
-    padding-bottom: 10px;
-}
-
 .headline {
     padding: 160px 0;
 }
 
-.headline h1 {
-    font-size: 130px;
-    background: #FFFF00;
-    opacity: .50;
-    text-align: left;
-    letter-spacing: -5px;
+.arrow-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
 }
 
-.headline h2 {
-    font-size: 77px;
+.headline h1 {
+    font-size: 8em;
     background: #FFFF00;
     opacity: .50;
     text-align: left;
@@ -67,7 +53,7 @@ div.headline {
 }
 
 .headline h3 {
-    font-size: 37px;
+    font-size: 2.25em;
     font-weight: bold;
     background: #FFFF00;
     opacity: .50;
@@ -76,157 +62,165 @@ div.headline {
     margin-top: 0;
 }
 
-.featurette-divider {
-    margin: 80px 0;
-}
-
-.featurette-divider-2 {
-    margin: 40px 0 0 0;
-}
-
-.featurette-divider-3 {
-    margin: 0;
-}
-
-.featurette-divider-4 {
-    margin: 0 0 40px 0;
-}
-
-.featurette {
-    overflow: hidden;
-}
-
-.featurette-image.pull-left {
-    margin-right: 40px;
-}
-
-.featurette-image.pull-right {
-    margin-left: 40px;
-}
-
-.featurette-heading {
-    font-size: 50px;
+.header-down-arrow {
+    color: white;
+    font-size: 5em !important;
 }
 
 footer {
-    margin: 50px 0;
     text-align: center;
 }
 
+.no-padding {
+    padding: 0 !important;
+}
+
+#pinterest {
+    color: #BB0F23;
+}
+
+#pinterest:hover {
+    background-color: #FFFF00;
+}
+
+#instagram {
+    color: #20577E;
+}
+
+#instagram:hover {
+    background-color: #FFFF00;
+}
+
+#envelope:hover {
+    background-color: #FFFF00;
+}
+
+.product-info {
+    height: 100%;
+}
+
+.ptb-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.product-info:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.flex-vert-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-name {
+    font-family: 'Montserrat';
+    font-size: 2em;
+    line-height: 1.25em;
+    text-align: center;
+    color: white;
+}
+
+.lead {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1.25em;
+    text-align: center;
+    color: white;
+}
+
+.product-style {
+    background-size: cover;
+    height: 500px;
+}
+
+.product-1 {
+    background: url('../public/brownleather500.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.product-2 {
+    background: url('../public/pinkblue500.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.product-3 {
+    background: url('../public/nylon_striped500.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.product-4 {
+    background: url('../public/blackorange500.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.product-5 {
+    background: url('../public/blackleather500.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.product-6 {
+    background: url('../public/blackred500.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.product-7 {
+    background: url('../public/pinkstriped500.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.product-8 {
+    background: url('../public/whitewhite500.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.product-9 {
+    background: url('../public/blackblack500.jpg') no-repeat center center;
+    background-size: cover;
+}
+
 @media(max-width:1200px) {
-    .headline h1 {
-        font-size: 140px;
-    }
-
-    .headline h2 {
-        font-size: 63px;
-    }
-
-    .featurette-divider {
-        margin: 50px 0;
-    }
-
-    .featurette-image.pull-left {
-        margin-right: 20px;
-    }
-
-    .featurette-image.pull-right {
-        margin-left: 20px;
-    }
-
     .featurette-heading {
         font-size: 35px;
     }
 }
 
 @media(max-width:991px) {
-    .headline h1 {
-        font-size: 105px;
-    }
-
-    .headline h2 {
-        font-size: 50px;
-    }
-
-    .featurette-divider {
-        margin: 40px 0;
-    }
-
     .featurette-image {
         max-width: 50%;
     }
-
-    .featurette-image.pull-left {
-        margin-right: 10px;
-    }
-
-    .featurette-image.pull-right {
-        margin-left: 10px;
-    }
-
     .featurette-heading {
         font-size: 30px;
     }
 }
 
-@media(max-width:768px) {
-    .container {
-        margin: 0 15px;
+@media(max-width:769px) {
+    .collapse {
+        display: block;
     }
-
-    .featurette-divider {
-        margin: 40px 0;
+    .product-info {
+        background-color: rgba(0, 0, 0, 0.25);
     }
+    .social-row-bottom {
+        font-size: 14px;
+        padding: 30px 0px;
+    }
+}
 
+@media(max-width:767px) {
+    .headline h1 {
+        font-size: 4em;
+    }
+    .headline h3 {
+        font-size: 1.5em;
+    }
     .featurette-heading {
         font-size: 25px;
     }
-}
-
-@media(max-width:668px) {
-    .headline h1 {
-        font-size: 70px;
-    }
-
-    .headline h2 {
-        font-size: 32px;
-    }
-
-    .featurette-divider {
-        margin: 30px 0;
-    }
-}
-
-@media(max-width:640px) {
-    .headline {
-        padding: 75px 0 25px 0;
-    }
-
-    .headline h1 {
-        font-size: 60px;
-    }
-
-    .headline h2 {
-        font-size: 30px;
-    }
-}
-
-@media(max-width:375px) {
-    .featurette-divider {
-        margin: 10px 0;
-    }
-
-    .featurette-image {
-        max-width: 100%;
-    }
-
-    .featurette-image.pull-left {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .featurette-image.pull-right {
-        margin-bottom: 10px;
-        margin-left: 0;
+    .product-style {
+        background-size: cover;
+        height: 350px;
     }
 }
