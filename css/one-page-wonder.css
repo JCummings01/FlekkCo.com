@@ -64,7 +64,7 @@ a, a:hover {
 
 .header-down-arrow {
     color: white;
-    font-size: 5em !important;
+    font-size: 44px !important;
 }
 
 footer {
@@ -75,24 +75,37 @@ footer {
     padding: 0 !important;
 }
 
-#pinterest {
-    color: #BB0F23;
+.header-icon {
+    font-size: 44px;
 }
 
-#pinterest:hover {
-    background-color: #FFFF00;
+#pinterest {
+    color: #373a3c;
+    margin-right: 10px;
 }
 
 #instagram {
-    color: #20577E;
+    color: #373a3c;
+    /*margin-right: 20px;*/
 }
 
-#instagram:hover {
-    background-color: #FFFF00;
+#envelope {
+    color: #373a3c;
+    margin-right: 10px;
 }
 
-#envelope:hover {
+#pinterest:hover, #instagram:hover, #envelope:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.social-row-bottom {
+    width: 110px;
+    float: right;
     background-color: #FFFF00;
+    opacity: .5;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .product-info {
