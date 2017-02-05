@@ -88,16 +88,19 @@ footer {
 #pinterest {
     color: #373a3c;
     /*margin-right: 10px;*/
+    animation-duration: 2s;
 }
 
 #instagram {
     color: #373a3c;
     /*margin-right: 20px;*/
+    animation-duration: 3s;
 }
 
 #envelope {
     color: #373a3c;
     /*margin-right: 10px;*/
+    animation-duration: 4s;
 }
 
 #pinterest:hover, #instagram:hover, #envelope:hover {
