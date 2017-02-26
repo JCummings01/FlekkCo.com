@@ -1,17 +1,25 @@
 body {
     margin-top: 0px;
-    /*background-color: #EAEAEA;*/
     height: 100%;
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .body-container {
-    padding: 100px 50px;
+    padding: 20px;
+    background-color: #fcfcfb;
 }
+
+.wpwd {
+    transition: all .2s ease-out;
+}
+
+.wpwd:hover {
+    color: gold;
+}
+
 .footer-container {
     background-color: #373a3c;
-    padding-right: 65px;
-    padding-left: 65px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 a, a:hover {
@@ -30,16 +38,47 @@ a, a:hover {
     float: left;
 }
 
+.flk-logo {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url('../public/FLKCO.png') no-repeat;
+    height: 88px;
+    width: 90px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+}
+
 .header-image {
     display: block;
-    /*width: 100%;*/
-    height: calc(100vh - 200px);
+    height: 300px;
     text-align: center;
     background: url('../public/GOLD1.jpg') no-repeat center center scroll;
+    background-position-y: 41%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.top-bar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.top-text {
+    font-size: 11px;
+    transition: all .2s ease-out;
+}
+
+.top-text:hover {
+    color: gold;
 }
 
 .headline {
@@ -86,7 +125,7 @@ footer {
 }
 
 .img-border {
-    border: 7.5px solid white;
+    border: 12.5px solid white;
 }
 
 .header-icon {
@@ -118,8 +157,15 @@ footer {
 
 .social-row-bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 30px 0px;
+}
+
+.copyright {
+    color: #fcfcfb;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 10px;
 }
 
 .product-info {
@@ -132,8 +178,8 @@ footer {
 }
 
 .product-info:hover {
-    background-color: rgba(0, 0, 0, 0.25);
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*padding: 10px;*/
 }
 
 .flex-vert-center {
@@ -142,30 +188,43 @@ footer {
     justify-content: center;
 }
 
-/*.text-container {
-    padding: 15px;
-}*/
+.text-container {
+    display: flex;
+    height: 95%;
+    width: 100%;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-container:hover {
+    border: 1px solid white;
+}
 
 .product-name {
     font-family: 'Montserrat';
-    font-size: 2em;
     line-height: 1.25em;
     text-align: center;
     color: white;
+    border: 1px solid white;
+    padding: 15px;
+    font-size: 1.25em;
 }
 
 .lead {
     font-family: 'Montserrat';
     text-transform: uppercase;
-    font-size: 1em;
-    line-height: 1.25em;
+    font-size: 12px;
+    width: 80%;
+    line-height: 1.75em;
     text-align: center;
     color: white;
 }
 
 .product-style {
     background-size: cover;
-    height: 500px;
+    height: 450px;
 }
 
 .product-1 {
