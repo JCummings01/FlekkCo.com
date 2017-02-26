@@ -14,6 +14,7 @@ $('document').ready(function() {
             }
         }
     });
+    $(this).find('.text-container').hide()
 
     $('.featurette').mouseenter(function() {
         $(this).find('.text-container').show()
