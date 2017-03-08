@@ -52,6 +52,16 @@ a, a:hover {
     -o-background-size: contain;
 }
 
+.flk-name {
+    background: url('../public/FLEKKCO.png') no-repeat center center;
+    height: 22px;
+    width: 90px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+}
+
 .header-image {
     display: block;
     height: 300px;
